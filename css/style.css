@@ -1,31 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Source+Sans+Pro:600');
+
+body,html{
+	font-size: 100%;
+}
 
 /* Navegador */
 nav{
 	color: white;
-	font-size: 1.5em;
-	vertical-align: middle;
+	font-size: 1.8em;
 	font-family: 'Quicksand', sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
-.navbar-nav > li > a {
-	height: 30px;
-}
+
+
 
 nav a{
 	color: white;
+	margin-top: 30px !important;
+	text-shadow: 2px 2px 1px black !important;
 }
 nav a:hover{
-	background: transparent !important;
-	color: white;
-	text-shadow: 3px 3px black !important;
+	background-color: transparent !important;
+	color: #E6F25F;
+	text-shadow: 3px 3px 10px black !important;
+	font-weight: bold;
 }
 
 nav.shrink{
 	background-color: rgba(0,0,0,0.5);
 }
-nav.shrink a:hover, nav.shrik a:active{
+nav.shrink a{
+	
+}
+nav.shrink a:hover{
 	color: white;
-	background-color: rgba(0,0,0,0.8) !important;
+	background-color: transparent !important;
+	font-weight: bold;
+}
+.contacto{
+	border: 2px solid white;
+	border-radius: 10px;
+}
+.contacto:hover{
+	background-color: white !important;
+	color: black !important;
 }
 
 /*Header*/
@@ -55,12 +75,28 @@ video::-webkit-media-controls {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	transform: translateX(-50%) translateY(-50%);
-	font-size: 3em;
-	font-family: 'Open Sans', sans-serif;
+	transform: translateX(-50%) translateY(-100%);
+	font-size: 4em;
+	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
-	letter-spacing: 0.02em;
-	padding: 5%;
-	background-color: rgba(0, 102, 0,0.3);
+	letter-spacing: 0.05em;
+	
+	
+	text-shadow: 4px 4px 1px black;
+	
 	border-radius: 30px;
+}
+
+.video-text a{
+	position: absolute;
+	left: 47%;
+	top: 70%;
+	color: white;
+	font-size: 5em;
+	text-shadow: 0px 5px 1px black;
+}
+
+.video-text a:hover{
+	text-shadow: 0px 10px 1px black;	
+	color: white;
 }
