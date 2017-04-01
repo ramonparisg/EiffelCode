@@ -23,7 +23,7 @@ nav a{
 }
 nav a:hover{
 	background-color: transparent !important;
-	color: #E6F25F;
+	color: #E6F25F !important;
 	text-shadow: 3px 3px 10px black !important;
 	font-weight: bold;
 }
