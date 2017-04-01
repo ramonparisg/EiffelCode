@@ -44,7 +44,11 @@ nav.shrink a:hover{
 	border-radius: 10px;
 }
 .contacto:hover{
-	background-color: white !important;
+	color: #E6F25F;
+	border-color: #E6F25F;
+}
+nav.shrink .contacto:hover{
+	background-color: white !important
 	color: black !important;
 }
 
